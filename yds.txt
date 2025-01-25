@@ -1,0 +1,30 @@
+Before Gujarati digits `૧` slok is in Gujarati language
+just after that and before `||` slok is in Sanskrit 
+and before English digits `1` slok is in English
+and just after that explainantion of slok is provisioned
+
+Your task is to create the dictionary format with double quotes and provide following structure from the raw text parsed.
+See example below as dictionary structure is given and following corpus is parsed so that I will parse for another id's. where id(key) is English digit, title(key) is first 3 words from gujarati language phrase, gujarati(key) is `Before Gujarati digits `૧` slok is in Gujarati language`,
+sanskrit(key) is information insankrit, transliteration(key) is `before English digits `1` slok is in English`, and(translation) is last corpus of id
+{
+    id: 1,
+    title: "વામે યસ્ય સ્થિતા",
+    gujarati: "વામે યસ્ય સ્થિતા રાધા શ્રીશ્ચ યસ્યાસ્તિ વક્ષસિ  । વૃન્દાવનવિહારં તં શ્રીકૃષ્ણં હૃદિ ચિન્તયે ॥",
+    sanskrit:
+      "वामे यस्य स्थिता राधा श्रीश्च यस्यास्ति वक्षसि । वृन्दावनविहारं तं श्रीकृष्णं हृदि चिन्तये ॥
+    transliteration:
+      "Vāme yasya sthitā Rādhā shrīshcha yasyāsti vakṣhasi | Vṛundāvan-vihāram tam Shrīkṛuṣhṇam hṛudi chintaye ||",
+    translation:
+      "(શ્રી સહજાનંદસ્વામી જે તે પોતાના સત્સંગી પ્રત્યે શિક્ષાપત્રીને લખતા થકા પ્રથમ પોતાના ઈષ્ટદેવ જે શ્રીકૃષ્ણ ભગવાન તેનું ધ્યાનરૂપ મંગલાચરણ કરે છે.)
+હું જે તે મારા હૃદયને વિષે શ્રીકૃષ્ણ ભગવાનનું ધ્યાન કરું છું. તે શ્રીકૃષ્ણ કેવા છે તો જેના ડાબા પડખાને વિષે રાધિકાજી રહ્યાં છે અને જેના વક્ષઃસ્થળને વિષે લક્ષ્મીજી રહ્યાં છે અને વૃંદાવનને વિષે વિહારના કરનારા છે. (શિક્ષાપત્રી : ૧) "
+  } 
+
+
+વામે યસ્ય સ્થિતા રાધા શ્રીશ્ચ યસ્યાસ્તિ વક્ષસિ ।
+વૃન્દાવનવિહારં તં શ્રીકૃષ્ણં હૃદિ ચિન્તયે ॥ ૧ ॥
+वामे यस्य स्थिता राधा श्रीश्च यस्यास्ति वक्षसि ।
+वृन्दावनविहारं तं श्रीकृष्णं हृदि चिन्तये ॥
+Vāme yasya sthitā Rādhā shrīshcha yasyāsti vakṣhasi |
+Vṛundāvan-vihāram tam Shrīkṛuṣhṇam hṛudi chintaye || 1 ||
+ (શ્રી સહજાનંદસ્વામી જે તે પોતાના સત્સંગી પ્રત્યે શિક્ષાપત્રીને લખતા થકા પ્રથમ પોતાના ઈષ્ટદેવ જે શ્રીકૃષ્ણ ભગવાન તેનું ધ્યાનરૂપ મંગલાચરણ કરે છે.)
+હું જે તે મારા હૃદયને વિષે શ્રીકૃષ્ણ ભગવાનનું ધ્યાન કરું છું. તે શ્રીકૃષ્ણ કેવા છે તો જેના ડાબા પડખાને વિષે રાધિકાજી રહ્યાં છે અને જેના વક્ષઃસ્થળને વિષે લક્ષ્મીજી રહ્યાં છે અને વૃંદાવનને વિષે વિહારના કરનારા છે. (શિક્ષાપત્રી : ૧)
